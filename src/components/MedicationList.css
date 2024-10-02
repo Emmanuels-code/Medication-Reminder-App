@@ -1,0 +1,54 @@
+.medication-list {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medication-title {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.medication-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.medication-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.medication-item:last-child {
+  border-bottom: none;
+  /* Remove border from last item */
+}
+
+.medication-info {
+  color: #555;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 200ms ease-in;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.no-medications {
+  color: #888;
+  text-align: center;
+  padding: 1rem;
+}

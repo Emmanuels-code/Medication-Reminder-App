@@ -1,0 +1,40 @@
+/* General App Styling */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  margin-bottom: 2rem;
+  /* Space between header and routes */
+}
+
+.app-title {
+  font-size: 2.5rem;
+  /* Adjust font size for prominence */
+  color: #007bff;
+  /* Matching navbar color for consistency */
+  margin: 0;
+}
+
+.app-tagline {
+  font-size: 1.2rem;
+  /* Slightly smaller than the title */
+  color: #666;
+  /* A softer color for the tagline */
+}
+
+/* Navbar, Card, Button, and other existing styles remain unchanged */
